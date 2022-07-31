@@ -15,8 +15,21 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
   background: #eee;
 }
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+
+li{
+  list-style: none;
+} 
+
 
 input {
   border: 1px solid #ddd;
@@ -25,3 +38,89 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.header{
+  display: flex;
+  justify-content:space-between;  
+}
+
+.header ul{
+  display: flex;
+  gap: 8px;
+}
+
+.footer{
+  display: flex;
+  justify-content:space-between; 
+  background-color:  beige;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer ul{
+  display: flex;
+  gap: 8px;
+}
+
+.left-links{
+  justify-content: flex-start;
+  border: 10px;
+  margin: 10px;
+  padding: 0px;
+}
+
+.right-links{
+  justify-content: flex-end;
+  border: 10px;
+  margin: 10px;
+  padding: 0px;
+}
+
+.content img{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+}
+
+
+
+/*left-links{  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.right-links{  
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+*/
